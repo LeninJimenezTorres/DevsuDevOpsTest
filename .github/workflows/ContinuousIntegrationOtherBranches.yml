@@ -5,7 +5,7 @@ on:
     branches-ignore: [master]
 
 jobs: 
-  ContinuousIntegration: 
+  ContinuousIntegrationOtherBranches: 
     runs-on: [ubuntu-latest]
     steps: 
       - run: echo Runing test
