@@ -2,8 +2,7 @@ name: ContinuousIntegration
 
 on: 
   push:
-    branches:
-      -master
+    branches: [ master ]
 
 jobs: 
   runs-on: self-hosted
