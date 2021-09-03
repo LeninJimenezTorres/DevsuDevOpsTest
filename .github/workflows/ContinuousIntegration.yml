@@ -1,12 +1,10 @@
 name: ContinuousIntegration
 
-on: 
-  push:
-    branches: [ master ]
+on: [push]
 
 jobs: 
   ContinuousIntegration: 
     runs-on: self-hosted
     steps: 
-      -name: Runing Test 
-      -run: echo Runing test
+      - name: Runing Test 
+      - run: echo Runing test
