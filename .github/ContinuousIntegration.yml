@@ -8,5 +8,6 @@ on:
 jobs: 
   runs-on: ubuntu-latest
   steps: 
-    -run: |
+    -name: Runing Test 
+      run:
       echo 'Runing test';
