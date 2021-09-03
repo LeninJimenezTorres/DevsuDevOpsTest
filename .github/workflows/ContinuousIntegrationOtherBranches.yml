@@ -1,4 +1,4 @@
-name: ContinuousIntegration
+name: ContinuousIntegrationOtherBranches
 
 on: 
   push:
