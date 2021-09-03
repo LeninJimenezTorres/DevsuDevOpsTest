@@ -1,0 +1,14 @@
+name: ContinuousIntegration
+
+on: 
+  push:
+    branches-ignore: [master]
+
+jobs: 
+  ContinuousIntegration: 
+    runs-on: [ubuntu-latest]
+    steps: 
+      - run: echo Runing test
+      - run: echo npm install
+      - run: echo npm start
+      - run: echo npm test
