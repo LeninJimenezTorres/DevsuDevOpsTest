@@ -4,7 +4,6 @@ on: [push]
 
 jobs: 
   ContinuousIntegration: 
-    runs-on: [ubuntu-latest]
+    runs-on: [self-hosted]
     steps: 
-      - name: Runing Test 
       - run: echo Runing test
