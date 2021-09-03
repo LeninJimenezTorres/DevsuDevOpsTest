@@ -9,5 +9,4 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
     -name: Runing Test 
-      run:
-      echo 'Runing test';
+      run: echo 'Runing test'
