@@ -8,5 +8,5 @@ jobs:
   ContinuousIntegration: 
     runs-on: self-hosted
     steps: 
-      - name: Runing Test 
-      - run: echo Runing test
+      -name: Runing Test 
+      -run: echo Runing test
