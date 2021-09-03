@@ -11,4 +11,6 @@ jobs:
       - run: echo Runing test
       - run: echo npm install
       - run: echo npm start
-      - run: echo npm test 
+      - run: echo npm test
+      - run: echo docker build -t node-devsu-devopstest
+      - run: echo run -it --name container-devsu-devopstest -p 4000:3000 node-devsu-devopstest
