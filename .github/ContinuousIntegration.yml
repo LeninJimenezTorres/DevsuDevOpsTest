@@ -1,0 +1,12 @@
+name: ContinuousIntegration
+
+on: 
+  push:
+    branches:
+      -master
+
+jobs: 
+  runs-on: ubuntu-latest
+  steps: 
+    -run: |
+      echo 'Runing test';
